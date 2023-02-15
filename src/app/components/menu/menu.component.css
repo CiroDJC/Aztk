@@ -1,0 +1,62 @@
+.card{
+    margin: 15px;
+    width: 250px;
+    height: auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #efefef;
+}
+
+.logo{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.menu,
+.list-icons{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid  #3D4051;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #3D4051;
+}
+
+a::selection > li{
+    background-color: #006341;
+}
+
+a::selection > i{
+    color: #FAFAFA;
+}
+
+a::selection{
+    color: #FAFAFA;
+}
+
+i{
+    color:#3D4051;
+}
+
+li:hover{
+    background-color:#006341;
+}
+
+li:hover>i{
+    color:#FAFAFA;
+}
+
+li:hover>a{
+    color:#FAFAFA;
+}

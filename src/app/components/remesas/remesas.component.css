@@ -1,0 +1,254 @@
+.bg-section{
+    width: 100%;
+    background-color: #fafafafa;
+    height: auto;
+    padding-bottom: 50px;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    margin: 15px;
+    width:  75%;
+    height: auto;
+    padding: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:95%;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+
+.card-header{
+    background-color: #efefef;
+    padding: 5px;
+}
+
+.card-body{
+
+    padding: 10px;
+}
+
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+
+
+
+.card-item{
+    width: 130px;
+    height: 100px;
+    border: 1px solid #efefef;
+}
+
+.mg-b-10{
+    margin-bottom: 10px;
+}
+
+.card-item .card-item-header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-item .card-item-header .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-item  .card-item-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: #efefef;
+}
+
+.form{
+    width: 100%;
+}
+
+
+.card-footer .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer .form label{
+    margin-right: 5px;
+} 
+
+.select-lg{
+    width: 45%;
+    padding: 5px;
+    border: 1px solid #efefef;
+}
+
+.select-focus:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .14);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-operacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-operacion-body{
+    width: 100%;
+    padding-right: 5px;
+}
+
+.form-operacion-body .col{
+    width: 100%;
+}
+.form-operacion-body .row{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-operacion-body .col .row label{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.form-operacion-body .col .row input{
+    width: 100%;
+    padding: 5px;
+    padding-right: 135px;
+}
+
+.form-operacion-body .col .row .input-group label{
+    margin-right: 30px;
+}
+
+.form-operacion-btn{
+    width: 25% ;
+}
+
+.input-group{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--bs-tertiary-bg);
+    border: 1px solid #efefef;
+}
+
+.btn-search{
+    width: 150px;
+    margin-right: 50px;
+}
+.btn{
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.btn-bg-g{
+    border: 1px solid #006341;
+    background-color: #006341; 
+    color: #efefef;
+    padding: 6px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.card-remesa{
+    width: 350px;
+    height: auto;
+    border: 1px solid #efefef;
+    padding: 10px 15px 10px 15px ;
+    margin-left: 15px;
+    margin-bottom:15px;
+}
+
+.form-remesa{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-remesa .form-remesa .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-remesa .btn{
+    margin-top: 10px;
+}
+
+.btn-bg-s{
+    border: 1px solid #66afe9;
+    background-color:#66afe9; 
+    color: #efefef;
+    padding: 6px;
+}
+
+.btn-lg{
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+<div class="bg-section">
+    <app-navbar></app-navbar>
+    <div class="flex-content">
+        <app-menu></app-menu>
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <span>Información de la remesa</span>
+                    </div>
+                    <div class="card-body fw-bold">
+                        <div class="row">
+                            <form class="form">
+                                <div class="form-operacion">
+                                    <div class="form-operacion-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="row">
+                                                    <label for="">Clave de envio</label>
+                                                    <input type="text" placeholder="Ingresa referencia">
+                                                </div>
+                                                <div class="row">
+                                                    <label for="">Remitente</label>
+                                                    <input type="text" disabled>
+                                                </div>
+                                                <div class="row">
+                                                    <label for="">Origen de envio</label>
+                                                    <input type="text" disabled>
+                                                </div>
+                                                <div class="row">
+                                                    <label for="">Monto</label>
+                                                    <input type="text" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-operacion-btn">
+                                        <div class="row">
+                                            <div class="btn-search">
+                                                <button class="btn btn-bg-g">
+                                                    <i class="bi bi-search"></i>
+                                                    Buscar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-remesa">
+                    <div class="card-body fw-bold">
+                        <form action="">
+                            <div class="form-remesa">
+                                <div class="col">
+                                    <label for="">Estatus de la remesa</label>
+                                    <input class="input-remesa" type="text" disabled>
+                                </div>
+                                <div class="col">
+                                    <label for="">Fecha de envio</label>
+                                    <input class="input-remesa" type="text" disabled>
+                                </div>
+                                <button class="btn btn-lg btn-bg-g">
+                                    Q Pagar
+                                </button>
+                                <button id="mostrar-modal" name="modal" class="btn btn-lg btn-bg-s">
+                                    Imprimir Ticket
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span>Datos de la operación</span>
+                </div>
+                <div class="card-body fw-bold">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nihil id commodi ipsa vitae dolore molestiae minus enim. Nulla ut recusandae nemo quam autem minus totam impedit, quod accusamus optio?</p>
+</div>
